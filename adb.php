@@ -1,13 +1,13 @@
 <?php
 
 /**
- * author: 
+ * author: Agatha Maison
  * date:
  * description: A root class for all manage classes. This class communicates with DB
  */
 
 define("DB_HOST", 'localhost');
-define("DB_NAME", 'webtech');
+define("DB_NAME", 'courseware');
 define("DB_PORT", 3306);
 define("DB_USER","root");
 define("DB_PWORD","");
@@ -35,7 +35,7 @@ class adb {
     var $result;
 
     function adb() {
-       
+
         $this->er_code_prefix=1000;
         $this->link=false;
         $this->result = false;
@@ -98,18 +98,23 @@ class adb {
 	* connect to db and run a query 
 	*/
     function query($str_sql) {
-		
-        if (!$this->connect()) {		
+		//echo"query";
+        if (!$this->connect()) {	
+      //  echo"query1";	
             return false;
         }
-        
+        //echo"query2";
         $this->result = mysql_query($str_sql,$this->link);
+      //  echo"query3";
+      //  echo"$this->result";
         if (!$this->result) {
+         //   echo"query4";
             $this->log_error(LOG_LEVEL_DB_FAIL, 4, "query failed", mysql_error($this->link));
+         //   echo"query5";
             return false;
         }
-
-        return true;
+      //  echo"query6";
+        return $this->result;
     }
 	
 	/**
