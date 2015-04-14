@@ -7,10 +7,10 @@
  */
 
 define("DB_HOST", 'localhost');
-define("DB_NAME", 'webtech');
+define("DB_NAME", 'courseware');
 define("DB_PORT", 3306);
 define("DB_USER","root");
-define("DB_PWORD","");
+define("DB_PWORD","humble5300.");
 
 define("LOG_LEVEL_SEC",0);
 define("LOG_LEVEL_DB_FAIL",0);
@@ -127,7 +127,6 @@ class adb {
 	
 }
 
-?>
 
 
 
