@@ -38,7 +38,7 @@ class adb {
        
         $this->er_code_prefix=1000;
         $this->link=false;
-        $this->result = false;
+//        $this->result = false;
     }
 
     /**
