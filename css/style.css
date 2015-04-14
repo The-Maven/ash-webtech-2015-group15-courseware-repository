@@ -4,16 +4,15 @@
 	cursor:pointer
 }
 .status{
-	background-color:Yellow
+	background-color:lightskyblue;
 }
 .error{
 	color:Red;
-	background-color:Yellow
+	background-color:light
 }
 
 .menuitem {
 	text-decoration:underline;
-	color:blue;
 	cursor:hand
 }
 .menuitem:hover{
@@ -26,21 +25,52 @@
 #pageheader
 {
     height: 1in;
-    background-color: #FFCC66;
-    font-size: large;
+    background-color: white;
+    color: teal;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+    font-size: 30px;
     text-align: center;
 }
 
+#maintable{
+    width: 100%;
+}
 #mainnav{
-	width:2in;
-	vertical-align:top
+    /*padding-top:20px;*/
+	width:20%;
+	vertical-align:top;
+
+    /*border:1px solid olive;*/
 }
 
-
+.nav{
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    /*border-style: solid;*/
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-size: large;
+    background: slategray;
+}
 #content {
 	width:10in;
 	vertical-align:top
 	
+}
+
+
+#txtsearch{
+    float: right;
+}
+#content #divPageMenu{
+
+    background-color: teal;
+    color: antiquewhite;
+    font-size: large;
 }
 
 .reportTable 
@@ -51,24 +81,26 @@
 
 .reportTable .header
 {
-    background-color: #CC6600;
+    background-color: teal;
     text-transform: uppercase;
     color: White;
 }
 
 .reportTable .row1
 {
-    background-color: #FFE0B3;
+    background-color: antiquewhite;
+    /*color: white;*/
 }
 
 .reportTable .row2
 {
-    background-color:White;
+    background-color:teal;
+    color: white;
 }
 
 .reportTable tr:hover
 {
-    background-color:Yellow
+    background-color:royalblue;
 }
 
 .tableForm .label
