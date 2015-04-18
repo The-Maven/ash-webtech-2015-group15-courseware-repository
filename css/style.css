@@ -71,13 +71,19 @@
 	
 }
 
+.fa-search {
+  font-family: FontAwesome; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
 
-#txtsearch{
+.search{
     float: right;
 }
+
 #content #divPageMenu{
 
     background-color: teal;
+    width: 100%;
+    height: 10%;
     color: antiquewhite;
     font-size: large;
 }
