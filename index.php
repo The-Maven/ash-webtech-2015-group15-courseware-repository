@@ -23,9 +23,9 @@
 				</td>
 				<td id="content">
 					<div id="divPageMenu">
-						<span  >Add</span>
-						<span  >Edit</span>
-						<span  >Delete</span>
+						<span class="pmenu">Add</span>
+						<span class="pmenu">Edit</span>
+						<span class="pmenu">Delete</span>
 						<input type="text" id="txtSearch" />
 						<span >search</span>
 					</div>
