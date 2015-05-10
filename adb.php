@@ -7,10 +7,10 @@
  */
 
 define("DB_HOST", 'localhost');
-define("DB_NAME", 'courseware');
+define("DB_NAME", 'csashesi_anthony-kwawu');
 define("DB_PORT", 3306);
-define("DB_USER","root");
-define("DB_PWORD","humble5300.");
+define("DB_USER","csashesi_ank16");
+define("DB_PWORD","db!kAgTI");
 
 define("LOG_LEVEL_SEC",0);
 define("LOG_LEVEL_DB_FAIL",0);
@@ -127,8 +127,4 @@ class adb {
 	
 }
 
-
-
-
-
-
+?>
